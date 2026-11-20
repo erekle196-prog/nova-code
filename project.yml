@@ -1,1 +1,19 @@
 
+name: NOVAStudio
+
+options:
+  bundleIdPrefix: com.erekle
+
+targets:
+  NOVAStudio:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: NOVAStudio
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.erekle.novastudio
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        GENERATE_INFOPLIST_FILE: YES
